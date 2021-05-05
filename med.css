@@ -1,22 +1,24 @@
-@font-face {
-  font-family: 'League';
-  src: url("LeagueSpartan-Bold.otf") format("opentype");
-}
-@font-face {
-  font-family: 'Libre Baskerville';
-  src: url("LibreBaskerville-Italic.ttf") format("truetype");
+input {
+  margin-left: 5%;
+  background-color: #ccecec;
+  border: none;
+  width: 50%;
+  padding: 15px 32px;
 }
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   background-color: white;
 }
+.main {
+  max-width:1200px;
+  margin:auto;
+}
 .main p {
   padding-left: 5%;
   padding-right: 5%;
-  max-width:1200px;
   text-align:left;
-	margin:0 auto;
+  margin:0 auto;
   font-size: 14pt;
 }
 h1 {
@@ -24,7 +26,6 @@ h1 {
   padding-top: 50px;
   padding-right: 5%;
   font-family: 'League', sans-serif;
-  font-size: 40pt;
   text-align: center;
 }
 h2 {
@@ -35,7 +36,6 @@ h2 {
   text-align: left;
 }
 h3 {
-  padding-bottom: 50px;
   padding-left: 5%;
   padding-right: 5%;
   font-family: 'Libre Baskerville', sans-serif;
@@ -49,7 +49,16 @@ button {
   padding: 15px 32px;
   cursor: pointer;
 }
-/* sidebyside */
+/* custom fonts  */
+@font-face {
+  font-family: 'League';
+  src: url("LeagueSpartan-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Libre Baskerville';
+  src: url("LibreBaskerville-Italic.ttf") format("truetype");
+}
+/* sidebyside sections */
 .mentee{
   width:40%;
   margin-left:5%;
@@ -61,6 +70,12 @@ button {
   width:40%;
   display:inline-block;
   text-align: center;
+}
+.mentor img, .mentee img {
+  max-width: 300px;
+  max-height: 300px;
+  width:40vw;
+  height:40vw;
 }
 .clearfix{
   clear:both
@@ -108,7 +123,7 @@ button {
 .topnav .icon {
   display: none;
 }
-
+/* Top nav folding */
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -128,6 +143,22 @@ button {
     float: none;
     display: block;
     text-align: left;
+  }
+}
+/* Header Size */
+@media (min-width: 520px) {
+  h1 {
+    font-size: 60pt;
+  }
+}
+@media (min-width: 410px) and (max-width:520px) {
+  h1 {
+    font-size: 48pt;
+  }
+}
+@media (max-width: 410px) {
+  h1 {
+    font-size: 25pt;
   }
 }
 /* Calendar */
