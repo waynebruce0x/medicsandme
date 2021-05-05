@@ -1,8 +1,8 @@
-# medicsandme
+# medics&me website
 Medics&amp;Me website repo
 
 
-Need to:
+To Do:
 
 Get nice backgrounds like the insta posts
 Set up a mailchimp / custom maillist manager
