@@ -57,9 +57,22 @@ button {
   padding: 15px 32px;
   cursor: pointer;
 }
-.blogpost {
-  padding: 50px;
+/* blogs  */
+.blogpost1 {
+  padding: 20px;
   margin: 20px;
+  border: 10px solid #ccecec;
+}
+.blogpost1 h2:hover {
+  color: #f6dd63;
+}
+.blogpost2 {
+  padding: 20px;
+  margin: 20px;
+  border: 10px solid #f6dd63;
+}
+.blogpost2 h2:hover {
+  color: #ccecec;
 }
 /* custom fonts  */
 @font-face {
