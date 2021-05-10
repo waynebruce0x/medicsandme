@@ -43,11 +43,23 @@ h3 {
   font-size: 18pt;
   text-align: center;
 }
+h4 {
+  padding-left: 5%;
+  margin-top: -25px;
+  font-family: 'Libre Baskerville', sans-serif;
+  font-weight: 100;
+  font-size: 10pt;
+  text-align: left;
+}
 button {
   background-color: #f6dd63;
   border: none;
   padding: 15px 32px;
   cursor: pointer;
+}
+.blogpost {
+  padding: 50px;
+  margin: 20px;
 }
 /* custom fonts  */
 @font-face {
@@ -81,6 +93,9 @@ button {
   clear:both
 }
 /* footer */
+.footer a {
+  text-decoration: none;
+}
 .footer img {
   padding-top: 5px;
   padding-bottom: 5px;
