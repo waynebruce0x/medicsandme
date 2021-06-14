@@ -1,6 +1,7 @@
 # medics&me website
 Medics&amp;Me website repo
 
+Super light website for Meg's charity
 
 To Do:
 
